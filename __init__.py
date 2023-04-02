@@ -54,12 +54,12 @@ async def _(bot: Bot, event: Event, state: T_State):
         card_key = card_keys[index - 1]
         meaning_key = list(meanings.keys())[count]
         meaning_value = meanings[meaning_key]
-        image_file = f"file:///{IMG_PATH}{card_key}.jpg"
+        image_file = f"file:///{IMG_PATH}{card_key}.png"
 
         # 特殊规则：愚者有两张
         if card_key == "愚者":
             rand = randint(1, 2)
-            image_file = f"file:///{IMG_PATH}{card_key}{rand}.jpg"
+            image_file = f"file:///{IMG_PATH}{card_key}{rand}.png"
 
         # 特殊规则：小阿卡纳分正位逆位
         if isinstance(cards[card_key], dict):

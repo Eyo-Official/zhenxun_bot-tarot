@@ -1,15 +1,12 @@
-# zhenxun_bot-tarot
-
-基于哔哩哔哩主题塔罗牌抽签https://github.com/zhenxun-org/nonebot_plugins_zhenxun_bot/tree/master/tarot
-
 哔哩哔哩主题塔罗牌抽签
 
 抽取属于你的塔罗牌
 
 指令：
-```Java
+```Python
 塔罗/塔罗牌/tarot/Tarot
 ```
+
 更新
 2022/3/5
 
